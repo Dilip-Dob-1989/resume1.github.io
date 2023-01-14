@@ -1,0 +1,504 @@
+/* Styling oF Header */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 5px;
+    box-shadow: 2px 2px 5px gray;
+    position:relative;
+   
+    
+}
+nav > .left-icon-container > img{
+    height:50px;
+    width:50px;
+    margin-left: 20px;
+}
+nav > .left-icon-container > input{
+    position:absolute;
+    margin-left:10px;
+    top:40%;
+    min-width:0%;
+    width:20%;
+    
+   
+    
+}
+nav > .Right-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > .Right-icon-container > a{
+    margin: 20px;
+    color:black;
+    text-decoration: none;
+
+}
+nav > .Right-icon-container > a:last-child{
+    margin-right: 20px;
+}
+
+
+/* styling of main body */
+
+.panel-box{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+
+}
+.child-item{
+    background-color:silver;
+    padding:10px;
+    margin:10px;
+}
+
+
+/* left child panel styling */
+
+
+.child-item left-panel{
+    display:grid;
+    grid-template-rows: auto auto auto;
+}
+.left-child{
+    padding:10px;
+    margin:10px;
+    background-color:silver;
+    width:20vw;
+   
+    
+}
+.left-child1{
+    background-image: linear-gradient(to bottom,rgb(168, 43, 43),rgb(128, 0, 109),rgb(243, 237, 237));
+    position:relative;
+    height:40vh
+}
+.left-child1>img{
+    height:50%;
+    width:50%;
+    border-radius: 50%;
+    position:absolute;
+    left:25%;
+    bottom:25%;
+    
+}
+.left-child1>#para1{
+    position:absolute;
+    left:30%;
+    top:30vh;
+    
+    
+}
+.left-child1>#para2{
+    position:absolute;
+    Left:15%;
+    top:28vh;
+    position:relative;
+    margin-top:5px;
+    
+    
+}
+.left-child2{
+    height:40vh;
+    position: relative;
+    background-color: white;
+    
+}
+.left-child2>#one{
+    position: absolute;
+    left:90%;
+    
+}
+.left-child2>#two{
+    position: absolute;
+    left:90%;
+}
+.left-child3{
+    background-color: white;
+}
+.left-child3>a{
+    color:black;
+    text-decoration: none;
+}
+
+/* Middle panel block 1 styling */
+
+.Middle-panel{
+    display:flex;
+    flex-direction: column;
+    
+}
+.middle-child{
+    background-color:white;
+    margin:10px;
+    padding:10px;
+
+}
+.middle1{
+    height:100px;
+    position:relative;
+}
+.middle1>img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    position:absolute;
+}
+.middle1>input{
+    border-radius: 10px;
+    position:relative;
+    left:70px;
+    top:10px;
+    outline: none;
+    width:80%;
+    height:40%;
+}
+.middle1>span{  
+   
+    position:relative;
+    top:30px;
+    margin: 40px;   
+}
+
+/* middle panel block 2 styling */
+
+.middle2{
+    display:flex;
+    margin:20px;
+    height:60vh;
+    
+    flex-direction: row;
+    position: relative;
+}
+.middle2>.img1{
+    
+    height:100px;
+    width:100px;
+    top:20px;
+    
+}
+.middle2>.span1{
+    position: absolute;
+    left:100px;
+    top:20px;
+   
+    
+}
+.middle2>.span2{
+    position: absolute;
+    right:20px;
+    top:20px;
+    
+}
+.middle2>.img2{
+    position:absolute;
+    height:60%;
+    width:90%;
+    top:100px;
+    margin-left: 20px;
+
+}
+.middle2>.span3{
+    position:absolute;
+    color:blue;
+    top:370px;
+    left:40px;
+}
+.middle2>.span4{
+    position:absolute;
+    color:red;
+    top:370px;
+    left:65px;
+}
+.middle2>.span5{
+    position:absolute;
+    color:green;
+    top:370px;
+    left:85px;
+}
+.middle2>.span6{
+    position:absolute;
+    font-weight: none;
+    
+    top:370px;
+    left:110px;
+}
+.middle2>.span7{
+    position:absolute;
+    color:black;
+    
+    top:420px;
+    left:40px;
+}
+.middle2>.span8{
+    position:absolute;
+    color:black;
+    
+    top:420px;
+    left:120px;
+}
+.middle2>.span9{
+    position:absolute;
+    color:black;
+    
+    top:420px;
+    left:240px;
+}
+.middle2>.span10{
+    position:absolute;
+    color:black;
+    
+    top:420px;
+    left:320px;
+}
+/* Middle panel block 3 styling */
+
+.middle3{
+    position:relative;
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.middle3>.img1{
+    position:absolute;
+    width:80px;
+    height:80px;
+}
+.middle3>.span1{
+    position: absolute;
+    left:150px;
+    top:20px;
+    
+
+}
+.middle3>.span2{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+.middle3>p{
+    position:absolute;
+    left:10px;
+    top:100px;
+}
+.middle3>iframe{
+    position: absolute;
+    top:150px;
+    width:90%;
+    Height:60%;
+    margin-left:20px;
+}
+.middle3>.span3{
+    position:absolute;
+    color:blue;
+    top:470px;
+    left:40px;
+}
+.middle3>.span4{
+    position:absolute;
+    color:red;
+    top:470px;
+    left:65px;
+}
+.middle3>.span5{
+    position:absolute;
+    color:green;
+    top:470px;
+    left:85px;
+}
+.middle3>.span6{
+    position:absolute;
+    font-weight: none;
+    
+    top:470px;
+    left:110px;
+}
+.middle3>.span7{
+    position:absolute;
+    color:black;
+    
+    top:500px;
+    left:40px;
+}
+.middle3>.span8{
+    position:absolute;
+    color:black;
+    
+    top:500px;
+    left:120px;
+}
+.middle3>.span9{
+    position:absolute;
+    color:black;
+    
+    top:500px;
+    left:240px;
+}
+.middle3>.span10{
+    position:absolute;
+    color:black;
+    
+    top:500px;
+    left:320px;
+}
+/* Detail of Right panel */
+
+.Right-panel{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+}
+.right-child{
+    padding:10px;
+    margin:10px;
+    background-color: white;
+}
+
+/* Styling of Right Block 1 */
+
+.right-child1{
+    display:flex;
+    height:30vh;
+    position:relative;
+    flex-direction: row;
+
+}
+.right-child1>.span2{
+    position: absolute;
+   
+    right:10px;
+    left:90%;
+    top:20px;
+   
+  
+}
+.right-child1>ul>.li1{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:50px;
+    margin-top: 5px;
+}
+.right-child1>ul>.li2{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:90px;
+    margin-top: 5px;
+}
+.right-child1>ul>.li3{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:130px;
+    margin-top: 5px;
+}
+.right-child1>ul>.li4{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:170px;
+    margin-top: 5px;
+}
+
+/* Styling Of Right Block 2 */
+
+.right-child2{
+    display:flex;
+    height:20vh;
+    position:relative;
+    flex-direction: row;
+
+}
+.right-child2>.span2{
+    position: absolute;
+    top:20px;
+    left:90%;
+   
+  
+}
+.right-child2>ul>.li1{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:50px;
+    margin-top: 5px;
+}
+.right-child2>ul>.li2{
+    list-style-type: disc;
+    position:absolute;
+    left:20px;
+    top:90px;
+    margin-top: 5px;
+}
+
+/* Styling Of Right Block 3 */
+.right-child3{
+    display:flex;
+    height:40vh;
+    position:relative;
+    flex-direction: row;
+}
+.right-child3>.span2{
+    position: absolute;
+    top:20px;
+    left:90%;
+}
+.right-child3>.span3{
+    position: absolute;
+    top:40px;
+    left:5px;
+}
+.right-child3>#input1{
+    position: absolute;
+    top:80px;
+    left:15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.right-child3>.span4{
+    position: absolute;
+    top:120px;
+    left:5px;
+   
+}
+.right-child3>#input2{
+    position: absolute;
+    top:160px;
+    left:15px;
+    border-radius: 15px;
+    text-align: center;
+    margin:0;
+}
+.right-child3>img{
+    position: absolute;
+    top:200px;
+    left:0;
+   
+}
+.right-child3>#para1{
+    position: absolute;
+    top:200px;
+    left:45px;
+   
+}
+.right-child3>#para2{
+    position: absolute;
+    top:220px;
+    left:45px;
+   
+}
+
+
+.right-child3>#input3{
+    position: absolute;
+    top:240px;
+    left:15px;
+    border-radius: 15px;
+    text-align: center;
+    margin:0;
+}
